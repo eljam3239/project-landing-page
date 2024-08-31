@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     background: #1F2937;
+    min-height: 100vh;
 }
 
 .header {
@@ -53,4 +54,14 @@ img {
     height: 100px;
     border: 2px solid#3882F6;
     border-radius: 25px;
+}
+.sub3{
+    display: flex;
+    background: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    flex: 1;
 }
