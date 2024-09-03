@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     background: #1F2937;
     min-height: 100vh;
+    margin: 0;
 }
 
 .header {
@@ -42,12 +43,15 @@ a {
     font-weight: 900;
     color: #1F2937;
     padding: 20px;
+    align-items: center;
 }
 .container {
     background: #F9FAF8;
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 50px;
+    
 }
 img {
     width: 100px;
@@ -60,8 +64,33 @@ img {
     background: #E5E7EB;
     justify-content: center;
     align-items: center;
+    padding: 75px 170px;
+}
+.quote {
+    display: flex;
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
     flex: 1;
+}
+.quoteauthor {
+    display: flex;
+}
+.sub4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F9FAF8;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
+.blucontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3882F6;
+    border-radius: 25px;
 }
