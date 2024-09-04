@@ -6,6 +6,7 @@ body {
 }
 
 .header {
+    padding: 10px;
     display: flex;
     justify-content: space-around;
     background: #1F2937;
@@ -14,6 +15,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: bolder;
 }
 
 .headerlinks {
@@ -28,14 +30,19 @@ body {
     justify-content: space-around;
 }
 
-
-.sub1 {
+.sub1back {
     display: flex;
+    justify-content: center;
     background: #1F2937;
     margin: 0px;
     color: #F9FAF8;
-    justify-content: space-around;
+    
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sub1 {
+    display: flex;
+    justify-content: space-around;
     gap: 25px;
     flex-wrap: wrap;
 }
@@ -111,6 +118,8 @@ a {
     justify-content: center;
     align-items: center;
     padding: 75px 170px;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .quote {
     display: flex;
@@ -118,9 +127,13 @@ a {
     font-size: 36px;
     color: #1F2937;
     flex: 1;
+    max-width: 700px;
 }
 .quoteauthor {
     display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    font-weight: bold;
 }
 .sub4 {
     display: flex;
@@ -133,11 +146,30 @@ a {
     justify-content: center;
     color: #F9FAF8;
     align-items: center;
+    padding: 30px;
 }
 .blucontainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: #3882F6;
-    border-radius: 25px;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 700px;
+}
+.blucontainertext {
+    color: #E5E7EB;
+}
+
+.bannerheader {
+    font-size: 20px;
+}
+.bannertext {
+    font-size: 15px;
+}
+.signup {
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
 }
