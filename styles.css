@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     background: #1F2937;
-    min-height: 100vh;
     margin: 0;
 }
 
@@ -12,9 +11,62 @@ body {
     background: #1F2937;
     color: white;
 }
+
 .logo {
     font-size: 24px;
 }
+
+.headerlinks {
+    color: #E5E7EB;
+    display: flex;
+    gap: 18px;
+    font-size: 15px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.sub1 {
+    display: flex;
+    background: #1F2937;
+    margin: 0px;
+    color: #F9FAF8;
+    justify-content: space-around;
+    padding-top: 50px;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.sub1Text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.paragraph {
+    display: flex;
+    font-size: 48px;
+}
+.smallpara {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.darkcardbutton {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+    border-radius: 7px;
+    border-color: #3882F6;
+
+}
+.sub1image {
+    width: 300px;
+}
+
+
 
 ul {
     list-style-type: none;
@@ -28,12 +80,6 @@ a {
     font-size: 24px;
   }
 
-.headerlinks {
-    color: white;
-    display: flex;
-    gap: 20px;
-    font-size: 15px;
-}
 
 .sub2 {
     background: #F9FAF8;
@@ -53,7 +99,7 @@ a {
     padding-bottom: 50px;
     
 }
-img {
+.sub2img {
     width: 100px;
     height: 100px;
     border: 2px solid#3882F6;
@@ -86,6 +132,7 @@ img {
     display: flex;
     justify-content: center;
     color: #F9FAF8;
+    align-items: center;
 }
 .blucontainer {
     display: flex;
